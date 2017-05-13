@@ -74,6 +74,7 @@ h3, h4 {
 .pop-episodes {
     padding: 30px 0 30px 0;
     font-weight: bold;
+    text-align: left;
 }
 .img-size {
     height: 100px;
@@ -87,4 +88,10 @@ padding: 30px 0 20px 0;
 .img-size-podcast {
     height: 30px;
     width: auto;
+}
+.footer-img {
+    margin-left: 150px;
+}
+.footer-heading {
+    margin-right: 60px;
 }
