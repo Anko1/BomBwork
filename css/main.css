@@ -1,12 +1,38 @@
 *{
     margin: 0;
+    padding: 0;
 }
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 .show-on-med{
     display: none;
 }
 #logo{
     width: auto;
     height: 64px;
+}
+.inf {
+    font-weight: bold;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 150px;
+    font-family: sans-serif;
+}
+.inf6 {
+    font-weight: 300;
+    text-align: center;
+    margin-left: 100px;
+}
+.mybtn {
+    margin-left: 360px;
 }
 ul.head-menu li {
     margin: 0 15px;
@@ -21,16 +47,17 @@ ul.head-menu li:first-child a {
 }
 .parthners {
     background: #ebebeb;
-    padding-top: 7px;
+    padding-top: 20px;
     text-align: center;
     padding-left: 130px;
 }
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+ul.some-list li {
+list-style-type: square;
 }
-
-main {
-    flex: 1 0 auto;
+h5 {
+    margin: 0.82rem 0 1.656rem 0;
+}
+.podcast {
+    padding-top: 20px;
+    margin-bottom: 10px;
 }
