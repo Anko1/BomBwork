@@ -25,3 +25,12 @@ ul.head-menu li:first-child a {
     text-align: center;
     padding-left: 130px;
 }
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
