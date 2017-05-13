@@ -54,10 +54,17 @@ ul.head-menu li:first-child a {
 ul.some-list li {
 list-style-type: square;
 }
-h5 {
+.main-head {
     margin: 0.82rem 0 1.656rem 0;
 }
 .podcast {
     padding-top: 20px;
     margin-bottom: 10px;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.orange-txt {
+    color: #e65100;
 }
