@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+.show-on-med{
+    display: none;
+}
 #logo{
     width: auto;
     height: 64px;
@@ -15,4 +18,10 @@ ul.head-menu li a{
 }
 ul.head-menu li:first-child a {
     color: #e65100;
+}
+.parthners {
+    background: #ebebeb;
+    padding-top: 7px;
+    text-align: center;
+    padding-left: 130px;
 }
