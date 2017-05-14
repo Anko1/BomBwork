@@ -6,4 +6,22 @@
         width: 100%;
         height: auto;
     }
+    .main-head{
+        text-align: center;
+    }
+    .cor-img-size-st{
+        height: 55px;
+    }
+    .footer-text{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .logo {
+        height: 55px;
+    }
+    .contact {
+        display:none;
+    }
 }
