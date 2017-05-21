@@ -7,6 +7,10 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
+body a:hover {
+    color: white !important;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
 
 main {
     flex: 1 0 auto;
@@ -52,7 +56,7 @@ ul.head-menu li:first-child a {
     /*padding-left: 130px;*/
 }
 ul.some-list li {
-list-style-type: square;
+    list-style-type: square;
 }
 .main-head {
     margin: 0.82rem 0 1.656rem 0;
@@ -81,7 +85,7 @@ h3, h4 {
 }
 .contact {
     margin-top: 50px;
-padding: 30px 0 20px 0;
+    padding: 30px 0 20px 0;
 }
 .img-size-podcast {
     height: 30px;
@@ -101,8 +105,15 @@ padding: 30px 0 20px 0;
 .a-show{opacity: 1;}
 
 /*.magictime {*/
-    /*-webkit-animation-duration: 1s;*/
-    /*-moz-animation-duration: 1s;*/
-    /*-o-animation-duration: 1s;*/
-    /*animation-duration: 1s;*/
+/*-webkit-animation-duration: 1s;*/
+/*-moz-animation-duration: 1s;*/
+/*-o-animation-duration: 1s;*/
+/*animation-duration: 1s;*/
 /*}*/
+
+.b-to-gold:hover{
+    transition: .5s ease-in;
+    background-color: #f9e71a !important;
+    color: black !important;
+    text-shadow: none;
+}
